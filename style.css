@@ -1,0 +1,89 @@
+@import url(http://fonts.googleeapis.com/css?family=Oswald:400,:700);
+
+body{
+    padding:0;
+    background: #eee;
+    overflow: hidden;
+    font-family: 'Oswaldo', sans-serif;
+    text-align: center;
+}
+
+.frame{
+    position: relative;
+    width: 230px;
+    height: 380;
+    padding: 6px;
+    background-color: #fff;
+    margin: 80px auto;
+}
+.shadow-top{
+    position: absolute;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-top: 366px solid #bbb;
+    border-left: 50px solid transparent;
+}
+.shadow-bottom{
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #aaa;
+    border-left: 50px solid transparent;
+}
+.canva{
+    padding: 30px;
+    width: 170px;
+    height: 320px;
+    background-color: #FC6E51;
+    box-shadow: inset -2px 2px 0 #777;
+}
+.ground{
+    position: absolute;
+    top: 450px;
+    width: 100%;
+    min-height: 250px;
+    height: 400px;
+    padding: 120px 0;
+    background: #ddd;
+    overflow: hidden;
+}
+img{
+    width: 175px;
+    height: 200px;
+}
+.workhard, .and, .benice{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+}
+.and{
+    font-size: 40px;
+}
+.benice{
+    margin: 5 auto;
+    width: 50px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.sign{
+    font-size: 3px;
+}
+a,.ground p{
+color: #222;
+line-height: 0;
+}
+.mysite{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0,0,0,0.5);
+    border-bottom: solid 1px rgba(0,0,0,0.5);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    line-height: 20px;
+}
